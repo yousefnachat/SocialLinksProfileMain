@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(0, 0%, 100%);
+}
+/* page style */
+.screen {
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+/* card style*/
+.card {
+  width: 25%;
+  border-radius: 10px !important;
+  background-color: hsl(0, 0%, 12%) !important;
+}
+.card .profile-pic {
+  text-align: center;
+}
+.card .profile-pic img {
+  border-radius: 100%;
+  width: 25%;
+  margin: 40px 0;
+}
+.card .card-info {
+  text-align: center;
+}
+.card .card-info h2 {
+  color: hsl(0, 0%, 100%);
+}
+.card .card-info h5 {
+  color: hsl(75, 94%, 57%);
+  margin-bottom: 20px;
+}
+.card .card-info p {
+  color: hsl(0, 0%, 100%);
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+}
+.card .card-button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.card .card-button:last-child {
+  margin-bottom: 30px;
+}
+.card .card-button button {
+  width: 80%;
+  height: 50px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  background-color: hsl(0, 0%, 20%);
+  border: none;
+}
+.card .card-button button a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  font-family: "Inter", sans-serif;
+}
+@media screen and (max-width:375px) {
+    .card{
+        width: 95%;
+    }
+}
